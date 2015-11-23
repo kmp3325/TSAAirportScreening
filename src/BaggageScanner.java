@@ -21,10 +21,9 @@ public class BaggageScanner extends UntypedActor {
             security.tell(new BaggageReport(toCheck, passed), self());
         } else if (message instanceof Close) {
             System.out.println("Line "+line+"'s baggage scanner is closing.");
-            System.out.println("Line "+line+"'s baggage scanner tells its security station that it is closing.");
+            System.out.println("Line "+line+"'s baggage scanner tells its security station that it is closed.");
             security.tell(message, self());
-            System.out.println("Line "+line+"'s baggage scanner closed.");
-            getContext().stop(self());
+            context().system().stop(self());
         }
     }
 }

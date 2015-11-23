@@ -22,7 +22,7 @@ public class DocumentCheck extends UntypedActor {
         if (message instanceof Passenger) {
             Passenger passenger = ((Passenger) message);
             System.out.println("Document Check receives passenger "+passenger.getId()+".");
-            if (Math.random() > .2) {
+            if (Math.random() < .2) {
                 System.out.println("Passenger "+passenger.getId()+" fails document check and is sent to jail.");
                 jail.tell(passenger, self());
             } else {
@@ -39,7 +39,7 @@ public class DocumentCheck extends UntypedActor {
                 baggageScanner.get(i).tell(message, self());
             }
             System.out.println("Document Check station closed.");
-            getContext().stop(self());
+            context().system().stop(self());
         }
     }
 }

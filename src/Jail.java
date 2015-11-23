@@ -29,7 +29,8 @@ public class Jail extends UntypedActor {
                     System.out.println("Sending passenger "+passenger.getId()+" to permanent detention.");
                 }
                 System.out.println("Jail closed.");
-                getContext().stop(self());
+                context().system().stop(self());
+                System.exit(0);
             }
         }
     }

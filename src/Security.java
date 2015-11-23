@@ -50,10 +50,9 @@ public class Security extends UntypedActor {
             System.out.println("Security Station "+line+" received closing signal.");
             scannersClosed++;
             if (scannersClosed == 2) {
-                System.out.println("Body and baggage scanners for Security Station "+line+" have closed.  Sending close signal to jail.");
+                System.out.println("Body and baggage scanners for Security Station "+line+" have closed.  Sending close signal to jail and closing Security Station.");
                 jail.tell(message, self());
-                System.out.println("Security Station "+line+" closed.");
-                getContext().stop(self());
+                context().system().stop(self());
             }
         }
     }

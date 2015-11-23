@@ -21,10 +21,9 @@ public class PassengerScanner extends UntypedActor {
             security.tell(new PassengerReport(toCheck, passed), self());
         } else if (message instanceof Close) {
             System.out.println("Line "+line+"'s body scanner is closing.");
-            System.out.println("Line "+line+"'s body scanner tells its security station that it is closing.");
+            System.out.println("Line "+line+"'s body scanner tells its security station that it is closed.");
             security.tell(message, self());
-            System.out.println("Line "+line+"'s body scanner closed.");
-            getContext().stop(self());
+            context().system().stop(self());
         }
     }
 }
