@@ -1,0 +1,217 @@
+/usr/lib/jvm/java-8-oracle/bin/java -Didea.launcher.port=7532 -Didea.launcher.bin.path=/home/keegan/Programs/idea-IC-139.659.2/bin -Dfile.encoding=UTF-8 -classpath /usr/lib/jvm/java-8-oracle/jre/lib/jsse.jar:/usr/lib/jvm/java-8-oracle/jre/lib/charsets.jar:/usr/lib/jvm/java-8-oracle/jre/lib/plugin.jar:/usr/lib/jvm/java-8-oracle/jre/lib/deploy.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jfxswt.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jfr.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jce.jar:/usr/lib/jvm/java-8-oracle/jre/lib/javaws.jar:/usr/lib/jvm/java-8-oracle/jre/lib/resources.jar:/usr/lib/jvm/java-8-oracle/jre/lib/rt.jar:/usr/lib/jvm/java-8-oracle/jre/lib/management-agent.jar:/usr/lib/jvm/java-8-oracle/jre/lib/ext/jfxrt.jar:/usr/lib/jvm/java-8-oracle/jre/lib/ext/cldrdata.jar:/usr/lib/jvm/java-8-oracle/jre/lib/ext/sunjce_provider.jar:/usr/lib/jvm/java-8-oracle/jre/lib/ext/dnsns.jar:/usr/lib/jvm/java-8-oracle/jre/lib/ext/sunec.jar:/usr/lib/jvm/java-8-oracle/jre/lib/ext/sunpkcs11.jar:/usr/lib/jvm/java-8-oracle/jre/lib/ext/nashorn.jar:/usr/lib/jvm/java-8-oracle/jre/lib/ext/localedata.jar:/usr/lib/jvm/java-8-oracle/jre/lib/ext/zipfs.jar:/home/keegan/src/homework/TSAAirportScreening/out/production/TSAAirportScreening:/home/keegan/src/homework/TSAAirportScreening/scala-library-2.11.7.jar:/home/keegan/src/homework/TSAAirportScreening/akka/asm-5.0.3.jar:/home/keegan/src/homework/TSAAirportScreening/akka/junit-4.12.jar:/home/keegan/src/homework/TSAAirportScreening/akka/leveldb-0.7.jar:/home/keegan/src/homework/TSAAirportScreening/akka/config-1.3.0.jar:/home/keegan/src/homework/TSAAirportScreening/akka/guava-16.0.1.jar:/home/keegan/src/homework/TSAAirportScreening/akka/commons-io-2.4.jar:/home/keegan/src/homework/TSAAirportScreening/akka/jaxb-impl-2.2.6.jar:/home/keegan/src/homework/TSAAirportScreening/akka/jmh-core-1.10.3.jar:/home/keegan/src/homework/TSAAirportScreening/akka/jopt-simple-4.6.jar:/home/keegan/src/homework/TSAAirportScreening/akka/leveldb-api-0.7.jar:/home/keegan/src/homework/TSAAirportScreening/akka/slf4j-api-1.7.5.jar:/home/keegan/src/homework/TSAAirportScreening/akka/commons-math-2.2.jar:/home/keegan/src/homework/TSAAirportScreening/akka/slf4j-api-1.7.12.jar:/home/keegan/src/homework/TSAAirportScreening/akka/camel-core-2.13.4.jar:/home/keegan/src/homework/TSAAirportScreening/akka/commons-math3-3.2.jar:/home/keegan/src/homework/TSAAirportScreening/akka/hamcrest-core-1.3.jar:/home/keegan/src/homework/TSAAirportScreening/akka/metrics-jvm-3.0.2.jar:/home/keegan/src/homework/TSAAirportScreening/akka/HdrHistogram-1.1.4.jar:/home/keegan/src/homework/TSAAirportScreening/akka/LatencyUtils-1.0.3.jar:/home/keegan/src/homework/TSAAirportScreening/akka/commons-codec-1.10.jar:/home/keegan/src/homework/TSAAirportScreening/akka/leveldbjni-all-1.8.jar:/home/keegan/src/homework/TSAAirportScreening/akka/metrics-core-3.0.2.jar:/home/keegan/src/homework/TSAAirportScreening/akka/netty-3.10.3.Final.jar:/home/keegan/src/homework/TSAAirportScreening/akka/scala-stm_2.11-0.7.jar:/home/keegan/src/homework/TSAAirportScreening/akka/test-interface-1.0.jar:/home/keegan/src/homework/TSAAirportScreening/akka/mockito-all-1.10.19.jar:/home/keegan/src/homework/TSAAirportScreening/akka/junit-interface-0.11.jar:/home/keegan/src/homework/TSAAirportScreening/akka/scala-reflect-2.11.2.jar:/home/keegan/src/homework/TSAAirportScreening/akka/scala-xml_2.11-1.0.2.jar:/home/keegan/src/homework/TSAAirportScreening/akka/scala-xml_2.11-1.0.4.jar:/home/keegan/src/homework/TSAAirportScreening/akka/scalatest_2.11-2.2.4.jar:/home/keegan/src/homework/TSAAirportScreening/akka/akka-actor_2.11-2.4.0.jar:/home/keegan/src/homework/TSAAirportScreening/akka/akka-agent_2.11-2.4.0.jar:/home/keegan/src/homework/TSAAirportScreening/akka/akka-camel_2.11-2.4.0.jar:/home/keegan/src/homework/TSAAirportScreening/akka/akka-slf4j_2.11-2.4.0.jar:/home/keegan/src/homework/TSAAirportScreening/akka/akka-kernel_2.11-2.4.0.jar:/home/keegan/src/homework/TSAAirportScreening/akka/akka-remote_2.11-2.4.0.jar:/home/keegan/src/homework/TSAAirportScreening/akka/reactive-streams-1.0.0.jar:/home/keegan/src/homework/TSAAirportScreening/akka/scalacheck_2.11-1.11.6.jar:/home/keegan/src/homework/TSAAirportScreening/akka/uncommons-maths-1.2.2a.jar:/home/keegan/src/homework/TSAAirportScreening/akka/akka-cluster_2.11-2.4.0.jar:/home/keegan/src/homework/TSAAirportScreening/akka/akka-contrib_2.11-2.4.0.jar:/home/keegan/src/homework/TSAAirportScreening/akka/akka-testkit_2.11-2.4.0.jar:/home/keegan/src/homework/TSAAirportScreening/akka/akka-protobuf_2.11-2.4.0.jar:/home/keegan/src/homework/TSAAirportScreening/akka/jmh-generator-asm-1.10.3.jar:/home/keegan/src/homework/TSAAirportScreening/akka/akka-bench-jmh_2.11-2.4.0.jar:/home/keegan/src/homework/TSAAirportScreening/akka/sigar-loader-1.6.6-rev002.jar:/home/keegan/src/homework/TSAAirportScreening/akka/akka-persistence_2.11-2.4.0.jar:/home/keegan/src/homework/TSAAirportScreening/akka/akka-remote-tests_2.11-2.4.0.jar:/home/keegan/src/homework/TSAAirportScreening/akka/akka-cluster-tools_2.11-2.4.0.jar:/home/keegan/src/homework/TSAAirportScreening/akka/jmh-generator-bytecode-1.10.3.jar:/home/keegan/src/homework/TSAAirportScreening/akka/akka-cluster-metrics_2.11-2.4.0.jar:/home/keegan/src/homework/TSAAirportScreening/akka/akka-persistence-tck_2.11-2.4.0.jar:/home/keegan/src/homework/TSAAirportScreening/akka/jmh-generator-reflection-1.10.3.jar:/home/keegan/src/homework/TSAAirportScreening/akka/akka-cluster-sharding_2.11-2.4.0.jar:/home/keegan/src/homework/TSAAirportScreening/akka/akka-stream-experimental_2.11-1.0.jar:/home/keegan/src/homework/TSAAirportScreening/akka/akka-multi-node-testkit_2.11-2.4.0.jar:/home/keegan/src/homework/TSAAirportScreening/akka/akka-typed-experimental_2.11-2.4.0.jar:/home/keegan/src/homework/TSAAirportScreening/akka/scala-parser-combinators_2.11-1.0.4.jar:/home/keegan/src/homework/TSAAirportScreening/akka/akka-distributed-data-experimental_2.11-2.4.0.jar:/home/keegan/src/homework/TSAAirportScreening/akka/akka-persistence-query-experimental_2.11-2.4.0.jar:/home/keegan/Programs/idea-IC-139.659.2/lib/idea_rt.jar com.intellij.rt.execution.application.AppMain Main
+Passenger 0 arrives at the airport and is sent to Document Check.
+Passenger 1 arrives at the airport and is sent to Document Check.
+Passenger 2 arrives at the airport and is sent to Document Check.
+Passenger 3 arrives at the airport and is sent to Document Check.
+Passenger 4 arrives at the airport and is sent to Document Check.
+Passenger 5 arrives at the airport and is sent to Document Check.
+Passenger 6 arrives at the airport and is sent to Document Check.
+Passenger 7 arrives at the airport and is sent to Document Check.
+Passenger 8 arrives at the airport and is sent to Document Check.
+Passenger 9 arrives at the airport and is sent to Document Check.
+Passenger 10 arrives at the airport and is sent to Document Check.
+Passenger 11 arrives at the airport and is sent to Document Check.
+Passenger 12 arrives at the airport and is sent to Document Check.
+Passenger 13 arrives at the airport and is sent to Document Check.
+Passenger 14 arrives at the airport and is sent to Document Check.
+Passenger 15 arrives at the airport and is sent to Document Check.
+Passenger 16 arrives at the airport and is sent to Document Check.
+Passenger 17 arrives at the airport and is sent to Document Check.
+Passenger 18 arrives at the airport and is sent to Document Check.
+Passenger 19 arrives at the airport and is sent to Document Check.
+The airport is closing; sending notification to Document Check.
+Document Check receives passenger 0.
+Passenger 0 passes document check and enters the queue for line 0.
+Line 0's body scanner receives passenger 0.
+Line 0's body scanner reports to security that passenger 0 has passed.
+Document Check receives passenger 1.
+Passenger 1 passes document check and enters the queue for line 1.
+Line 0's baggage scanner receives passenger 0's bags.
+Line 0's baggage scanner reports to security that passenger 0's bags have passed.
+Line 1's body scanner receives passenger 1.
+Line 1's body scanner reports to security that passenger 1 has failed.
+Passenger 1 has arrived at security station 1.
+Line 1's baggage scanner receives passenger 1's bags.
+Passenger 0 has arrived at security station 0.
+Line 1's baggage scanner reports to security that passenger 1's bags have failed.
+Passenger 0's bags have arrived at security station 0.
+Document Check receives passenger 2.
+Passenger 0 has passed security and boards the plane!
+Passenger 1's bags have arrived at security station 1.
+Passenger 1 failed security and goes to jail!
+Passenger 2 passes document check and enters the queue for line 2.
+Jail received passenger 1.
+Line 2's body scanner receives passenger 2.
+Line 2's body scanner reports to security that passenger 2 has passed.
+Passenger 2 has arrived at security station 2.
+Document Check receives passenger 3.
+Passenger 3 passes document check and enters the queue for line 3.
+Document Check receives passenger 4.
+Passenger 4 passes document check and enters the queue for line 4.
+Line 0's body scanner receives passenger 3.
+Line 0's baggage scanner receives passenger 3's bags.
+Line 0's baggage scanner reports to security that passenger 3's bags have failed.
+Passenger 3's bags have arrived at security station 0.
+Line 2's baggage scanner receives passenger 2's bags.
+Line 2's baggage scanner reports to security that passenger 2's bags have passed.
+Passenger 2's bags have arrived at security station 2.
+Passenger 2 has passed security and boards the plane!
+Line 0's body scanner reports to security that passenger 3 has passed.
+Line 1's baggage scanner receives passenger 4's bags.
+Document Check receives passenger 5.
+Passenger 5 passes document check and enters the queue for line 5.
+Passenger 3 has arrived at security station 0.
+Passenger 3 failed security and goes to jail!
+Line 1's body scanner receives passenger 4.
+Line 2's baggage scanner receives passenger 5's bags.
+Line 2's baggage scanner reports to security that passenger 5's bags have passed.
+Passenger 5's bags have arrived at security station 2.
+Document Check receives passenger 6.
+Passenger 6 fails document check and is sent to jail.
+Document Check receives passenger 7.
+Passenger 7 passes document check and enters the queue for line 6.
+Document Check receives passenger 8.
+Passenger 8 passes document check and enters the queue for line 7.
+Document Check receives passenger 9.
+Passenger 9 passes document check and enters the queue for line 8.
+Line 0's baggage scanner receives passenger 7's bags.
+Line 0's baggage scanner reports to security that passenger 7's bags have failed.
+Line 2's baggage scanner receives passenger 9's bags.
+Line 2's baggage scanner reports to security that passenger 9's bags have passed.
+Line 1's baggage scanner reports to security that passenger 4's bags have passed.
+Line 0's body scanner receives passenger 7.
+Line 0's body scanner reports to security that passenger 7 has passed.
+Passenger 9's bags have arrived at security station 2.
+Jail received passenger 3.
+Line 1's body scanner reports to security that passenger 4 has passed.
+Line 2's body scanner receives passenger 5.
+Line 2's body scanner reports to security that passenger 5 has passed.
+Line 2's body scanner receives passenger 9.
+Line 2's body scanner reports to security that passenger 9 has passed.
+Document Check receives passenger 10.
+Passenger 10 passes document check and enters the queue for line 9.
+Line 0's body scanner receives passenger 10.
+Document Check receives passenger 11.
+Passenger 11 fails document check and is sent to jail.
+Document Check receives passenger 12.
+Passenger 4's bags have arrived at security station 1.
+Passenger 12 passes document check and enters the queue for line 10.
+Document Check receives passenger 13.
+Passenger 13 fails document check and is sent to jail.
+Document Check receives passenger 14.
+Passenger 14 fails document check and is sent to jail.
+Document Check receives passenger 15.
+Passenger 15 fails document check and is sent to jail.
+Document Check receives passenger 16.
+Passenger 16 passes document check and enters the queue for line 11.
+Jail received passenger 6.
+Jail received passenger 11.
+Jail received passenger 13.
+Line 0's body scanner reports to security that passenger 10 has passed.
+Passenger 5 has arrived at security station 2.
+Passenger 5 has passed security and boards the plane!
+Passenger 9 has arrived at security station 2.
+Passenger 9 has passed security and boards the plane!
+Line 1's body scanner receives passenger 8.
+Line 1's body scanner reports to security that passenger 8 has passed.
+Line 1's body scanner receives passenger 12.
+Line 1's body scanner reports to security that passenger 12 has passed.
+Jail received passenger 14.
+Jail received passenger 15.
+Passenger 7's bags have arrived at security station 0.
+Passenger 7 has arrived at security station 0.
+Passenger 7 failed security and goes to jail!
+Passenger 10 has arrived at security station 0.
+Jail received passenger 7.
+Document Check receives passenger 17.
+Passenger 17 passes document check and enters the queue for line 12.
+Line 1's baggage scanner receives passenger 8's bags.
+Line 1's baggage scanner reports to security that passenger 8's bags have passed.
+Line 0's body scanner receives passenger 17.
+Line 0's body scanner reports to security that passenger 17 has passed.
+Passenger 17 has arrived at security station 0.
+Line 2's baggage scanner receives passenger 16's bags.
+Line 2's baggage scanner reports to security that passenger 16's bags have passed.
+Passenger 16's bags have arrived at security station 2.
+Passenger 4 has arrived at security station 1.
+Line 1's baggage scanner receives passenger 12's bags.
+Line 1's baggage scanner reports to security that passenger 12's bags have passed.
+Document Check receives passenger 18.
+Line 0's baggage scanner receives passenger 10's bags.
+Line 2's body scanner receives passenger 16.
+Line 0's baggage scanner reports to security that passenger 10's bags have failed.
+Passenger 18 passes document check and enters the queue for line 13.
+Passenger 4 has passed security and boards the plane!
+Line 0's baggage scanner receives passenger 17's bags.
+Line 2's body scanner reports to security that passenger 16 has passed.
+Passenger 10's bags have arrived at security station 0.
+Passenger 10 failed security and goes to jail!
+Passenger 16 has arrived at security station 2.
+Passenger 16 has passed security and boards the plane!
+Line 0's baggage scanner reports to security that passenger 17's bags have passed.
+Passenger 17's bags have arrived at security station 0.
+Passenger 8 has arrived at security station 1.
+Document Check receives passenger 19.
+Passenger 12 has arrived at security station 1.
+Passenger 17 has passed security and boards the plane!
+Jail received passenger 10.
+Line 1's baggage scanner receives passenger 18's bags.
+Line 1's baggage scanner reports to security that passenger 18's bags have passed.
+Line 1's body scanner receives passenger 18.
+Passenger 8's bags have arrived at security station 1.
+Passenger 19 passes document check and enters the queue for line 14.
+Passenger 8 has passed security and boards the plane!
+Line 2's body scanner receives passenger 19.
+Line 2's body scanner reports to security that passenger 19 has passed.
+Passenger 19 has arrived at security station 2.
+Line 1's body scanner reports to security that passenger 18 has passed.
+Document Check station closing.
+Line 2's baggage scanner receives passenger 19's bags.
+Passenger 12's bags have arrived at security station 1.
+Line 2's baggage scanner reports to security that passenger 19's bags have passed.
+Document Check sending close notification to line 0.
+Passenger 12 has passed security and boards the plane!
+Document Check sending close notification to line 1.
+Passenger 19's bags have arrived at security station 2.
+Document Check sending close notification to line 2.
+Passenger 18's bags have arrived at security station 1.
+Document Check station closed.
+Line 0's body scanner is closing.
+Passenger 18 has arrived at security station 1.
+Passenger 18 has passed security and boards the plane!
+Line 0's baggage scanner is closing.
+Line 0's baggage scanner tells its security station that it is closed.
+Security Station 0 received closing signal.
+Line 1's body scanner is closing.
+Line 1's body scanner tells its security station that it is closed.
+Line 1's baggage scanner is closing.
+Passenger 19 has passed security and boards the plane!
+Line 1's baggage scanner tells its security station that it is closed.
+Line 2's body scanner is closing.
+Security Station 1 received closing signal.
+Line 2's baggage scanner is closing.
+Line 0's body scanner tells its security station that it is closed.
+Line 2's baggage scanner tells its security station that it is closed.
+Security Station 0 received closing signal.
+Security Station 1 received closing signal.
+Line 2's body scanner tells its security station that it is closed.
+Body and baggage scanners for Security Station 1 have closed.  Sending close signal to jail and closing Security Station.
+Body and baggage scanners for Security Station 0 have closed.  Sending close signal to jail and closing Security Station.
+Security Station 2 received closing signal.
+Security Station 2 received closing signal.
+Body and baggage scanners for Security Station 2 have closed.  Sending close signal to jail and closing Security Station.
+Jail received closing signal.
+Jail received closing signal.
+Jail received closing signal.
+All stations have closed; sending all detainees to permanent detention.
+Sending passenger 1 to permanent detention.
+Sending passenger 3 to permanent detention.
+Sending passenger 6 to permanent detention.
+Sending passenger 11 to permanent detention.
+Sending passenger 13 to permanent detention.
+Sending passenger 14 to permanent detention.
+Sending passenger 15 to permanent detention.
+Sending passenger 7 to permanent detention.
+Sending passenger 10 to permanent detention.
+Jail closed.
+
